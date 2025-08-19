@@ -28,6 +28,33 @@
 
 //question no 4
 
-let score = 78;
-let grade = score >=90 ?  "A" : score >= 75 ? "B" : score>=60 ? "c " :"fail";
+// let score = 78;
+// let grade = score >=90 ?  "A" : score >= 75 ? "B" : score>=60 ? "c " :"fail";
+
+
+
+
+// traffic signals
+//  let  color = "green";
+//  if(color=="red"){
+//     document.writeln("stop!");
+//  }else if(color=="yellow"){
+//     document.writeln("Slow down!");
+//  }
+// if(color=="green"){
+//     document.writeln("GO!");
+//  }
+
+//ticket calculator
+// let size = "XL";
+// if(size==="XL"){
+//     console.log("price of popcorn is Rs."+ 250);
+// } else if(size==="L"){
+//     console.log("price of popcorn is Rs. 200");
+// }else if(size==="M"){
+//     console.log("price of popcornis Rs. 150");
+// }else {
+//       console.log("price of popcorn is Rs. 100");
+
+
 document.writeln(grade);
