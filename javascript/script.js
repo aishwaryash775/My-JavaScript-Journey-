@@ -58,3 +58,19 @@
 
 
 document.writeln(grade);
+//string method//
+// let name = "shinde house";
+// let msg ="error";
+
+// document.writeln(msg.toUpperCase());
+
+//string method//
+//let msg ="IloveCoding";
+
+//method chaining
+
+//let msg ="    Shinde        " ;
+//let newmsg = msg.trim();
+//console.log("after trim :" ,newmsg);
+//newmsg = newmsg.toUpperCase();
+//console.log("after uppercase : " ,newmsg);
