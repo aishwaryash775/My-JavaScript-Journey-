@@ -1,76 +1,29 @@
-//practices question using javascript
-// Question no: 1
-// var x = 10;
-// var y = 20;
-// if (x > 5 && y < 25) {
-//     console.log("A");
-// } else {
-//     console.log("B");
-// }
-
-// Question no: 2
-// let isAdmin = true;
-// let isLoggedin = false; 
-// if (isAdmin || isLoggedin) {
-//     document.writeln("Access granted");
-// } else {
-//       document.writeln("Access denied");
-// }
-
-// Question no: 3
-// let temp = 35;
-// if (!(temp>30)) {
-//     document.writeln("hot");
-// }else{
-//      document.writeln("pleasant");
-// }
+const student ={
+    name : "aish",
+    age : 22,
+    eng : 94,
+    phy : 33,
+    getAvg(){
+        let avg = (this.eng + this.math + this.phy )/3;
+        console.log(avg);
+    }
+}
+= 
+alert("hrllo00");
 
 
-//question no 4
+const sum =(a,b) => {
+    console.log(a=b);
 
-// let score = 78;
-// let grade = score >=90 ?  "A" : score >= 75 ? "B" : score>=60 ? "c " :"fail";
-
-
+};
 
 
-// traffic signals
-//  let  color = "green";
-//  if(color=="red"){
-//     document.writeln("stop!");
-//  }else if(color=="yellow"){
-//     document.writeln("Slow down!");
-//  }
-// if(color=="green"){
-//     document.writeln("GO!");
-//  }
+const cube = (n) =>{
+    return n * n  * n ;
+};
 
-//ticket calculator
-// let size = "XL";
-// if(size==="XL"){
-//     console.log("price of popcorn is Rs."+ 250);
-// } else if(size==="L"){
-//     console.log("price of popcorn is Rs. 200");
-// }else if(size==="M"){
-//     console.log("price of popcornis Rs. 150");
-// }else {
-//       console.log("price of popcorn is Rs. 100");
+const pow = (a,b) =>
+{
+    return a**b;
+};
 
-
-document.writeln(grade);
-//string method//
-// let name = "shinde house";
-// let msg ="error";
-
-// document.writeln(msg.toUpperCase());
-
-//string method//
-//let msg ="IloveCoding";
-
-//method chaining
-
-//let msg ="    Shinde        " ;
-//let newmsg = msg.trim();
-//console.log("after trim :" ,newmsg);
-//newmsg = newmsg.toUpperCase();
-//console.log("after uppercase : " ,newmsg);
