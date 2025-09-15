@@ -26,4 +26,19 @@ const pow = (a,b) =>
 {
     return a**b;
 };
+const mul = (a,b) => a*b;
+
+
+document.writeln("Hi there!");
+
+setTimeout( () => {
+    document.writeln("apna india");
+},40000);
+document.writeln("WELCOME HOME");
+
+let id = setInterval(() => {
+    document.writeln("Apna world!");
+}, 2000);
+
+document.writeln(id);
 
