@@ -1,0 +1,27 @@
+  //JavaScript object to JSON string: Use JSON.stringify().
+   const myObject = { name: "Alice", age: 30 };
+    const jsonString = JSON.stringify(myObject);
+    console.log(jsonString); // Output: {"name":"Alice","age":30}
+
+
+//JSON string to JavaScript object: Use JSON.parse().
+    const jsonString = '{"name":"Bob","city":"New York"}';
+    const myObject = JSON.parse(jsonString);
+    console.log(myObject.name); // Output: Bob
+
+
+
+const jsonData = {
+    "user": {
+        "id": 1,
+        "username": "johndoe",
+        "email": "john@example.com"
+    },
+    "posts": [
+        {"id": 101, "title": "First Post"},
+        {"id": 102, "title": "Second Post"}
+    ]
+};
+
+console.log(jsonData.user.username); // Output: johndoe
+console.log(jsonData["posts"][0].title); // Output: First Post
